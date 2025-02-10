@@ -140,7 +140,7 @@ def my_function():
     pass
 ```
 
-7. ** Combining Different Parameter Types:**
+7. **Combining Different Parameter Types:**
 - You can combine different types of parameters, but they must follow this order:
 ```
 1️. Positional Parameters  
