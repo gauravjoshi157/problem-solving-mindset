@@ -30,7 +30,7 @@ Welcome, Gaurav
 5. **Arbitary Keyword Parameters**
 
 
-### 1. **Positional Parameters:** 
+1. **Positional Parameters:** 
 - Parameters that must be provided in correct order when calling the function.
 - The number of arguments must be same as the number of parameters of the function, Otherwise it will give error.
 - **Example**
@@ -50,7 +50,7 @@ add(24,46)
 - Positional parameters must always be provided unless a default value is set.
 
 
-### 2. **Default Parameters:**
+2. **Default Parameters:**
 - Parameters have a default value if no arguments are passed.
 - **Example**
 ```python
@@ -72,7 +72,7 @@ Welcome, Guest!
     - Helps avoid errors from missing arguments.
 
 
-### 3. **Keyword Parameters:**
+3. **Keyword Parameters:**
 - When calling a function you define parameter names explicit, `ignoring the order`. 
 - **Example**
 ```Python
@@ -92,7 +92,7 @@ Gaurav Joshi is 25 years old and lives in Jaipur
     - Improves code readability.
     - Reduces errors from misordered arguments.
 
-### 4. **Arbitary Positional Arguments:**
+4. **Arbitary Positional Arguments:**
 - Arbitary Positionaal Arguments allow passing `multiple arguments` into function in the form of tuple.
 - **Example**
 ```python
@@ -112,7 +112,7 @@ Sum of the numbers is:15
     - When you don’t know how many arguments will be passed.
     - Useful for functions like sum(), min(), and max().
 
-### 5. **Arbitary Keyword Arguments:**
+5. **Arbitary Keyword Arguments:**
 - Arbitary Keyword Arguments allow `multiple named arguments` into a function in the form of dictionary.
 - **Example**
 ```python
@@ -133,8 +133,14 @@ phone : 1234567890
 **Use Cases of `kwargs`:**
 - When the number of named arguments is unknown.
 - Useful in configuration settings or database queries.
+6.  **The pass Statement**
+- Function definitions cannot be empty, but if you for some reason have a function definition with no content, put in the pass statement to avoid getting an error.
+```python
+def my_function():
+    pass
+```
 
-### **8. Combining Different Parameter Types:**
+7. ** Combining Different Parameter Types:**
 - You can combine different types of parameters, but they must follow this order:
 ```
 1️. Positional Parameters  
