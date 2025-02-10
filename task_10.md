@@ -118,5 +118,3 @@ personalized_greet("Alice")
 - Understand the importance of functions in avoiding code repetition.
 - Apply functions in practical contexts, such as creating a simple calculator.
 - Understand the use of parameters and return values in functions.
-- Similar code found with 1 license type - View matches
-
