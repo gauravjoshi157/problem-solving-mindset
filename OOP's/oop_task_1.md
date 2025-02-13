@@ -64,10 +64,10 @@ class ClassName:
 - `__init__` is a reserved `method` name.
 - self is a reference to current instance of the `class`.
 - parameters are used to initialize obejct attribute.
-- Question: We know _init_ constructor used for initialize the object `attributes` and what happens when we don't use this init constructor?
+- **Question:** We know _init_ constructor used for initialize the object `attributes` and what happens when we don't use this init constructor?
 - **Answer:** Yes! Python will allow object creation without using `__init__` constructor but the `attributes` must be assigned manually.`__init__` ensure attribute to initialize at the creation
     - When we creat a object without `__init__` then we have to manually assign the `attributes` every time we create a new object. This process will take time and make our code complex.
-- Question: What happen if we did not use self in  `__init__`?
+- **Question:** What happen if we did not use self in  `__init__`?
 - **Answer:** If we do not give self inside `__init__` then nothing will happen special. Python will treat the first parameter as self.
     - This is wrong implimentation of code because of the wrong naming convensions which leads error and confusion in collaberations.
     - This will give TypeError.
