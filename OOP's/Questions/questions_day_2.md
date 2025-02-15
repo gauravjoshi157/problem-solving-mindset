@@ -51,7 +51,7 @@
     ```
 
 # Question 2: Create methods inside class and use it via object.
-```  
+```python
 # Creatine methods inside the class
 
 class Methametics:
@@ -79,7 +79,7 @@ print(numbers.multiply())
 print(numbers.divide())
 ```
 # Question 3: Creating functions outside the class and using them inside the class.
-```
+```python
 # Using outside function inside the class 
 def add(a,b):
         return (f"The sum of {a} and {b} is {a + b}")
