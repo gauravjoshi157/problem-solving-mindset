@@ -78,7 +78,7 @@ print(numbers.subtract())
 print(numbers.multiply())
 print(numbers.divide())
 ```
-# Question 2: Creating functions outside the class and using them inside the class.
+# Question 3: Creating functions outside the class and using them inside the class.
 ```
 # Using outside function inside the class 
 def add(a,b):
