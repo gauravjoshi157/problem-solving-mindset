@@ -1,4 +1,4 @@
-# Question1: What is overloading. Does python support overloading?
+# Question 1: What is overloading. Does python support overloading?
 **Explanation**
 - Overloading happen when same name is used to create multiple methods which takes different parameters.
 - Overloading has two types:
@@ -51,7 +51,7 @@
     ```
 
 # Question 2: Create methods inside class and use it via object.
-```python
+``` python
 # Creatine methods inside the class
 
 class Methametics:
@@ -107,4 +107,41 @@ class Methametics:
 
 nums = Methametics(45,5)    
 nums.calculation()
+```
+# Question 4: Create a class `Car` with three attributes(brand, color, year) and three methods(is_driving, has_stopped, honk) and use the class to make objects of the class `Car` and use the class methods.
+```python
+class Car:
+    def __init__(self, brand, color, year):
+        self.brand = brand
+        self.color = color
+        self.year = year
+    
+    def is_driving(self):
+        print(f"{self.color} {self.brand} of {self.year} is now dirving")
+    
+    def has_stopped(self):
+        print(f"{self.color} {self.brand} of {self.year} is suddenly stopped")
+    
+    def honk(self):
+        print("Beep! Beep!")
+
+car1 = Car("Toyota", "Black", 2003)
+car2 = Car("Kia", "Seltos", 2023)
+
+print("Car1 Details:")
+print(car1.brand)
+print(car1.color)
+print(car1.year)
+car1.is_driving()
+car1.honk()
+car1.has_stopped()
+
+print("\nCar2 Details:")
+print(car2.brand)
+print(car2.color)
+print(car2.year)
+
+car2.is_driving()
+car2.honk()
+car2.has_stopped()
 ```
