@@ -8,7 +8,7 @@
 - Methods:
     - `display_info()`: Print the details of the module.
     - `update_status(new_status)`: Update the status of the module.
-```
+```python
 # Creating LearningModule class and assigning attributes(module name, status)
 
 class LearningModule:
